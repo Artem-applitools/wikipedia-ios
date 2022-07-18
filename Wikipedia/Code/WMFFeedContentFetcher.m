@@ -84,7 +84,8 @@ static const NSInteger WMFFeedContentFetcherMinimumMaxAge = 18000; // 5 minutes
         return;
     }
 
-    NSURL *feedURL = [[self class] feedContentURLForSiteURL:siteURL onDate:date configuration:self.configuration];
+    NSURL *feedURL = [NSURL URLWithString:@"https://en.wikipedia.org/api/rest_v1/feed/featured/2022/07/10"];
+    // Changed to static code above for the tests //[[self class] feedContentURLForSiteURL:siteURL onDate:date configuration:self.configuration];
     [self.session getJSONDictionaryFromURL:feedURL
                                ignoreCache:NO
                          completionHandler:^(NSDictionary<NSString *, id> *_Nullable jsonDictionary, NSHTTPURLResponse *_Nullable response, NSError *_Nullable error) {
@@ -99,7 +100,7 @@ static const NSInteger WMFFeedContentFetcherMinimumMaxAge = 18000; // 5 minutes
                              }
 
                              NSError *mantleError = nil;
-        WMFFeedDayResponse *responseObject = [MTLJSONAdapter modelOfClass:[WMFFeedDayResponse class] fromJSONDictionary:jsonDictionary languageVariantCode: siteURL.wmf_languageVariantCode error:&mantleError];
+                             WMFFeedDayResponse *responseObject = [MTLJSONAdapter modelOfClass:[WMFFeedDayResponse class] fromJSONDictionary:jsonDictionary languageVariantCode:siteURL.wmf_languageVariantCode error:&mantleError];
                              if (mantleError) {
                                  DDLogError(@"Error parsing feed day response: %@", mantleError);
                                  failure(mantleError);
