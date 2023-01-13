@@ -326,7 +326,7 @@ final public class ArticleFetcher: Fetcher, CacheFetching {
     public func mobileHTMLRequest(articleURL: URL, revisionID: UInt64? = nil, scheme: String? = nil, cachePolicy: WMFCachePolicy? = nil, isPageView: Bool = false) throws -> URLRequest {
         
         var url = try mobileHTMLURL(articleURL: articleURL, revisionID: revisionID)
-        
+
         if let scheme = scheme {
             var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
             urlComponents?.scheme = scheme
@@ -489,7 +489,6 @@ final public class ArticleFetcher: Fetcher, CacheFetching {
     /// Returns the API request to fetch an article summary for the given canonical article URL
     private func summaryRequest(articleURL: URL, cachePolicy: WMFCachePolicy? = nil) throws -> URLRequest {
         let url = try summaryURL(articleURL: articleURL)
-        
         if let urlRequest = urlRequest(from: url, cachePolicy: cachePolicy) {
             return urlRequest
         } else {

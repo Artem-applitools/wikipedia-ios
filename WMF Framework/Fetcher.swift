@@ -112,6 +112,19 @@ open class Fetcher: NSObject {
         return task
     }
     
+    @objc(performMediaStaticSwift:withQueryParameters:cancellationKey:completionHandler:)
+    @discardableResult public func performMediaStaticSwift(for URL: URL?, with queryParameters: [String: Any]?, cancellationKey: CancellationKey?, completionHandler: @escaping ([String: Any]?, HTTPURLResponse?, Error?) -> Swift.Void) -> URLSessionTask? {
+        let url = Bundle.main.url(forResource: "search", withExtension: "json")
+        let key = cancellationKey ?? UUID().uuidString
+        let task = session.getJSONDictionary(from: url) { (result, response, error) in
+            let returnError = error ?? RequestError.from(result?["error"] as? [String : Any])
+            completionHandler(result, response, returnError)
+            self.untrack(taskFor: key)
+        }
+        track(task: task, for: key)
+        return task
+    }
+    
     @objc(performMediaWikiAPIGETForURLRequest:cancellationKey:completionHandler:)
     @discardableResult public func performMediaWikiAPIGET(for urlRequest: URLRequest, cancellationKey: CancellationKey?, completionHandler: @escaping ([String: Any]?, HTTPURLResponse?, Error?) -> Swift.Void) -> URLSessionTask? {
         

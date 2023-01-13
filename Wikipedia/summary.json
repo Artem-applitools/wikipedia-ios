@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Julio Ruelas",
+  "displaytitle": "<span class=\"mw-page-title-main\">Julio Ruelas</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q1712400",
+  "titles": {
+    "canonical": "Julio_Ruelas",
+    "normalized": "Julio Ruelas",
+    "display": "<span class=\"mw-page-title-main\">Julio Ruelas</span>"
+  },
+  "pageid": 25280050,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Autorretrato_%281900%29_de_Julio_Ruelas_en_el_MUNAL_%28M%C3%A9xico%29.jpg/320px-Autorretrato_%281900%29_de_Julio_Ruelas_en_el_MUNAL_%28M%C3%A9xico%29.jpg",
+    "width": 320,
+    "height": 430
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Autorretrato_%281900%29_de_Julio_Ruelas_en_el_MUNAL_%28M%C3%A9xico%29.jpg",
+    "width": 2974,
+    "height": 3994
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1088785263",
+  "tid": "4b26e980-8861-11ed-96bd-f130e6b502cb",
+  "timestamp": "2022-05-20T03:24:41Z",
+  "description": "Mexican artist",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Julio_Ruelas",
+      "revisions": "https://en.wikipedia.org/wiki/Julio_Ruelas?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Julio_Ruelas?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Julio_Ruelas"
+    },
+    "mobile": {
+      "page": "https://en.m.wikipedia.org/wiki/Julio_Ruelas",
+      "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Julio_Ruelas",
+      "edit": "https://en.m.wikipedia.org/wiki/Julio_Ruelas?action=edit",
+      "talk": "https://en.m.wikipedia.org/wiki/Talk:Julio_Ruelas"
+    }
+  },
+  "extract": "Julio Ruelas was a Mexican graphic artist, painter, draughtsman and printmaker. Ruelas was the principal illustrator of the Revista Moderna magazine and is most associated with Mexican symbolism. A number of his works are on display at the Museum of the City of Mexico and in the Zacatecas museum. Artistically, he was noted for creating etched images depicting his own face, incorporating black, twisted lines to give an impression of being tormented.",
+  "extract_html": "<p><b>Julio Ruelas</b> was a Mexican graphic artist, painter, draughtsman and printmaker. Ruelas was the principal illustrator of the <i>Revista Moderna</i> magazine and is most associated with Mexican symbolism. A number of his works are on display at the Museum of the City of Mexico and in the Zacatecas museum. Artistically, he was noted for creating etched images depicting his own face, incorporating black, twisted lines to give an impression of being tormented.</p>"
+}

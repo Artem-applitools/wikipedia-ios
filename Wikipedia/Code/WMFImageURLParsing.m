@@ -98,6 +98,34 @@ NSString *WMFChangeImageSourceURLSizePrefix(NSString *sourceURL, NSInteger newSi
     if (newSizePrefix < 1) {
         newSizePrefix = 1;
     }
+    
+    
+    // make links for the images static by changing how file:// links in the files are used.
+    
+    NSString *fileString = @"/file:/";
+    NSRange fileStringRange = [sourceURL rangeOfString:fileString];
+    
+    if(sourceURL.length == 0 || (fileStringRange.location == NSNotFound)) {
+        NSError *error = nil;
+        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^file://(.+)\\.([^.]+)$" options:0 error:&error];
+        if (error) {
+            NSLog(@"Error creating regular expression: %@", error);
+        } else {
+            NSTextCheckingResult *match = [regex firstMatchInString:sourceURL options:0 range:NSMakeRange(0, [sourceURL length])];
+            if (match) {
+                NSRange fileNameRange = [match rangeAtIndex:1];
+                NSRange fileExtensionRange = [match rangeAtIndex:2];
+                NSString *fileName = [sourceURL substringWithRange:fileNameRange];
+                NSString *fileExtension = [sourceURL substringWithRange:fileExtensionRange];
+                NSLog(@"File name: %@", fileName);  // Outputs "Name"
+                NSLog(@"File extension: %@", fileExtension);  // Outputs "extension"
+                NSURL *tempURL = [[NSBundle mainBundle] URLForResource:fileName withExtension:fileExtension];
+                return [tempURL absoluteString];
+            } else {
+                NSLog(@"File URL string does not match pattern");
+            }
+        }
+    }
 
     NSString *wikipediaString = @"/wikipedia/";
     NSRange wikipediaStringRange = [sourceURL rangeOfString:wikipediaString];

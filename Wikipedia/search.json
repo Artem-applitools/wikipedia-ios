@@ -1,0 +1,426 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "sroffset": 1,
+    "gpsoffset": 24,
+    "continue": "gpsoffset||"
+  },
+  "query": {
+    "redirects": [
+      {
+        "index": 24,
+        "from": "Selenium Cell",
+        "to": "Solar cell"
+      },
+      {
+        "index": 22,
+        "from": "Selenium mustard",
+        "to": "Bis(2-chloroethyl)selenide"
+      }
+    ],
+    "pages": {
+      "27117": {
+        "pageid": 27117,
+        "ns": 0,
+        "title": "Selenium",
+        "index": 1,
+        "description": "Chemical element, symbol Se and atomic number 34",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/SeBlackRed.jpg/120px-SeBlackRed.jpg",
+          "width": 120,
+          "height": 100
+        },
+        "revisions": [
+          {
+            "revid": 1130676154,
+            "parentid": 1128853091
+          }
+        ]
+      },
+      "11091779": {
+        "pageid": 11091779,
+        "ns": 0,
+        "title": "Selenium-79",
+        "index": 17,
+        "description": "Long-lived radioisotope of selenium",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1075735608,
+            "parentid": 1075722333
+          }
+        ]
+      },
+      "4544097": {
+        "pageid": 4544097,
+        "ns": 0,
+        "title": "Selenium (software)",
+        "index": 3,
+        "description": "Testing framework for web applications",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1132520649,
+            "parentid": 1125971306
+          }
+        ]
+      },
+      "44428811": {
+        "pageid": 44428811,
+        "ns": 0,
+        "title": "Selenium and Vitamin E Cancer Prevention Trial",
+        "index": 13,
+        "revisions": [
+          {
+            "revid": 1098912907,
+            "parentid": 1021931892
+          }
+        ]
+      },
+      "5704957": {
+        "pageid": 5704957,
+        "ns": 0,
+        "title": "Selenium compounds",
+        "index": 15,
+        "description": "Chemical compounds containing selenium",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Selenium_dioxide_sample.jpg/120px-Selenium_dioxide_sample.jpg",
+          "width": 120,
+          "height": 160
+        },
+        "revisions": [
+          {
+            "revid": 1121335206,
+            "parentid": 1121145445
+          }
+        ]
+      },
+      "22241441": {
+        "pageid": 22241441,
+        "ns": 0,
+        "title": "Selenium cycle",
+        "index": 18,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Selenium_pathways_and_transformations.png/120px-Selenium_pathways_and_transformations.png",
+          "width": 120,
+          "height": 99
+        },
+        "revisions": [
+          {
+            "revid": 1077953477,
+            "parentid": 1044298732
+          }
+        ]
+      },
+      "19342959": {
+        "pageid": 19342959,
+        "ns": 0,
+        "title": "Selenium deficiency",
+        "index": 6,
+        "description": "Medical condition",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1077953014,
+            "parentid": 1077248726
+          }
+        ]
+      },
+      "2696797": {
+        "pageid": 2696797,
+        "ns": 0,
+        "title": "Selenium dioxide",
+        "index": 5,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Selenium_dioxide_sample.jpg/120px-Selenium_dioxide_sample.jpg",
+          "width": 120,
+          "height": 160
+        },
+        "revisions": [
+          {
+            "revid": 1125236736,
+            "parentid": 1125228962
+          }
+        ]
+      },
+      "2311327": {
+        "pageid": 2311327,
+        "ns": 0,
+        "title": "Selenium disulfide",
+        "index": 4,
+        "description": "Mixture of selenium sulfides",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1128185827,
+            "parentid": 1108463362
+          }
+        ]
+      },
+      "16640926": {
+        "pageid": 16640926,
+        "ns": 0,
+        "title": "Selenium hexafluoride",
+        "index": 11,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1112951154,
+            "parentid": 1100917016
+          }
+        ]
+      },
+      "35954442": {
+        "pageid": 35954442,
+        "ns": 0,
+        "title": "Selenium in biology",
+        "index": 2,
+        "description": "Use of Selenium by organisms",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Selenocysteine_skeletal_3D.svg/120px-Selenocysteine_skeletal_3D.svg.png",
+          "width": 120,
+          "height": 167
+        },
+        "revisions": [
+          {
+            "revid": 1132870677,
+            "parentid": 1132552521
+          }
+        ]
+      },
+      "69228155": {
+        "pageid": 69228155,
+        "ns": 0,
+        "title": "Selenium iodide",
+        "index": 23,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1078235385,
+            "parentid": 1056022921
+          }
+        ]
+      },
+      "18719897": {
+        "pageid": 18719897,
+        "ns": 0,
+        "title": "Selenium meter",
+        "index": 20,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Minoxmeter.jpg/120px-Minoxmeter.jpg",
+          "width": 120,
+          "height": 80
+        },
+        "revisions": [
+          {
+            "revid": 770752127,
+            "parentid": 770752104
+          }
+        ]
+      },
+      "26944838": {
+        "pageid": 26944838,
+        "ns": 0,
+        "title": "Selenium monochloride",
+        "index": 12,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EntryWithCollCode37018.png/120px-EntryWithCollCode37018.png",
+          "width": 120,
+          "height": 129
+        },
+        "revisions": [
+          {
+            "revid": 1097850140,
+            "parentid": 1091773698
+          }
+        ]
+      },
+      "5483302": {
+        "pageid": 5483302,
+        "ns": 0,
+        "title": "Selenium oxybromide",
+        "index": 16,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Selenium_oxybromide.png/120px-Selenium_oxybromide.png",
+          "width": 120,
+          "height": 125
+        },
+        "revisions": [
+          {
+            "revid": 1119041767,
+            "parentid": 1108060663
+          }
+        ]
+      },
+      "5200141": {
+        "pageid": 5200141,
+        "ns": 0,
+        "title": "Selenium oxydichloride",
+        "index": 19,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1069263607,
+            "parentid": 1060002135
+          }
+        ]
+      },
+      "17706917": {
+        "pageid": 17706917,
+        "ns": 0,
+        "title": "Selenium rectifier",
+        "index": 7,
+        "description": "Type of power rectifier",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Selenium_Rectifier.jpg/120px-Selenium_Rectifier.jpg",
+          "width": 120,
+          "height": 179
+        },
+        "revisions": [
+          {
+            "revid": 1119998887,
+            "parentid": 1115204276
+          }
+        ]
+      },
+      "63371375": {
+        "pageid": 63371375,
+        "ns": 0,
+        "title": "Selenium tetrabromide",
+        "index": 21,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Selenium_tetrabromide.jpg/120px-Selenium_tetrabromide.jpg",
+          "width": 120,
+          "height": 160
+        },
+        "revisions": [
+          {
+            "revid": 1128191705,
+            "parentid": 1108451120
+          }
+        ]
+      },
+      "18330304": {
+        "pageid": 18330304,
+        "ns": 0,
+        "title": "Selenium tetrachloride",
+        "index": 14,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SeCl4-from-alpha-xtal-1981-CM-3D-ellipsoids.png/120px-SeCl4-from-alpha-xtal-1981-CM-3D-ellipsoids.png",
+          "width": 120,
+          "height": 119
+        },
+        "revisions": [
+          {
+            "revid": 1128193098,
+            "parentid": 1108422557
+          }
+        ]
+      },
+      "5296809": {
+        "pageid": 5296809,
+        "ns": 0,
+        "title": "Selenium tetrafluoride",
+        "index": 10,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Selenium-tetrafluoride-gas-3D-balls.png/120px-Selenium-tetrafluoride-gas-3D-balls.png",
+          "width": 120,
+          "height": 72
+        },
+        "revisions": [
+          {
+            "revid": 1118574911,
+            "parentid": 1071011977
+          }
+        ]
+      },
+      "5483173": {
+        "pageid": 5483173,
+        "ns": 0,
+        "title": "Selenium trioxide",
+        "index": 9,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1118574868,
+            "parentid": 1063862301
+          }
+        ]
+      },
+      "30806891": {
+        "pageid": 30806891,
+        "ns": 0,
+        "title": "Selenium yeast",
+        "index": 8,
+        "description": "Selenium-enriched yeast extract sold as animal fodder additive",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1124418384,
+            "parentid": 1124397575
+          }
+        ]
+      },
+      "65297377": {
+        "pageid": 65297377,
+        "ns": 0,
+        "title": "Bis(2-chloroethyl)selenide",
+        "index": 22,
+        "description": "Chemical compound",
+        "descriptionsource": "local",
+        "revisions": [
+          {
+            "revid": 1130573653,
+            "parentid": 1130151810
+          }
+        ]
+      },
+      "2352910": {
+        "pageid": 2352910,
+        "ns": 0,
+        "title": "Solar cell",
+        "index": 24,
+        "description": "Photodiode used to produce power from light on a large scale",
+        "descriptionsource": "local",
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Solar_cell.png/120px-Solar_cell.png",
+          "width": 120,
+          "height": 107
+        },
+        "revisions": [
+          {
+            "revid": 1133116642,
+            "parentid": 1133116472
+          }
+        ]
+      }
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "Selenium",
+        "pageid": 27117
+      }
+    ]
+  }
+}

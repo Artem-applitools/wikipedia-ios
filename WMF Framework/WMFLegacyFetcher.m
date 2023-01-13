@@ -48,6 +48,14 @@
     return [self performCancelableMediaWikiAPIGETForURL:URL cancellationKey:NSUUID.UUID.UUIDString withQueryParameters:queryParameters completionHandler:completionHandler];
 }
 
+// alternative static data method
+
+- (NSURLSessionTask *)performMediaWikiStaticData:(NSURL *)URL withQueryParameters:(NSDictionary<NSString *, id> *)queryParameters completionHandler:(void (^)(NSDictionary<NSString *,id> * _Nullable result, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error)) completionHandler {
+    return [self performCancelableMediaWikiStaticData:URL cancellationKey:NSUUID.UUID.UUIDString withQueryParameters:queryParameters completionHandler:completionHandler];
+}
+
+// End alternative
+
 - (NSURLSessionTask *)performMediaWikiAPIGETForURLRequest:(NSURLRequest *)urlRequest completionHandler:(void (^)(NSDictionary<NSString *,id> * _Nullable result, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error)) completionHandler {
     return [self performCancelableMediaWikiAPIGETForURLRequest:urlRequest cancellationKey:NSUUID.UUID.UUIDString  completionHandler:completionHandler];
 }
@@ -55,6 +63,14 @@
 - (NSURLSessionTask *)performCancelableMediaWikiAPIGETForURL:(NSURL *)URL cancellationKey:(NSString *)cancellationKey withQueryParameters:(NSDictionary<NSString *, id> *)queryParameters completionHandler:(void (^)(NSDictionary<NSString *,id> * _Nullable result, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error)) completionHandler {
     return [self.fetcher performMediaWikiAPIGETForURL:URL withQueryParameters:queryParameters cancellationKey:cancellationKey completionHandler:completionHandler];
 }
+
+// Alternative static data method
+
+- (NSURLSessionTask *)performCancelableMediaWikiStaticData:(NSURL *)URL cancellationKey:(NSString *)cancellationKey withQueryParameters:(NSDictionary<NSString *, id> *)queryParameters completionHandler:(void (^)(NSDictionary<NSString *,id> * _Nullable result, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error)) completionHandler {
+    return [self.fetcher performMediaStaticSwift:URL withQueryParameters:queryParameters cancellationKey:cancellationKey completionHandler:completionHandler];
+}
+
+//End alternative
 
 - (NSURLSessionTask *)performCancelableMediaWikiAPIGETForURLRequest:(NSURLRequest *)urlRequest cancellationKey:(NSString *)cancellationKey completionHandler:(void (^)(NSDictionary<NSString *,id> * _Nullable result, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error)) completionHandler {
     return [self.fetcher performMediaWikiAPIGETForURLRequest:urlRequest cancellationKey:cancellationKey completionHandler:completionHandler];

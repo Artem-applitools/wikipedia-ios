@@ -103,9 +103,9 @@ NSUInteger const WMFMaxSearchResultLimit = 24;
 }
 
 - (void)performSearchRequestForSearchTerm:(NSString *)searchTerm url:(NSURL *)url queryParameters:(NSDictionary *)queryParameters appendToPreviousResults:(nullable WMFSearchResults *)previousResults failure:(WMFErrorHandler)failure success:(WMFSearchResultsHandler)success {
-    [self performMediaWikiAPIGETForURL:url
-                   withQueryParameters:queryParameters
-                     completionHandler:^(NSDictionary<NSString *, id> *_Nullable result, NSHTTPURLResponse *_Nullable response, NSError *_Nullable error) {                         if (error) {
+    [self performMediaWikiStaticData:url
+                  withQueryParameters:queryParameters
+                    completionHandler:^(NSDictionary<NSString *, id> *_Nullable result, NSHTTPURLResponse *_Nullable response, NSError *_Nullable error) {                         if (error) {
                              failure(error);
                              return;
                          }

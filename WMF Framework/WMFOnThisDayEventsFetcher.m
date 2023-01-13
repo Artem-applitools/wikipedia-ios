@@ -29,7 +29,8 @@
     NSString *monthString = [NSString stringWithFormat:@"%lu", (unsigned long)month];
     NSString *dayString = [NSString stringWithFormat:@"%lu", (unsigned long)day];
     NSArray<NSString *> *path = @[@"feed", @"onthisday", @"events", monthString, dayString];
-    NSURL *url = [self.configuration feedContentAPIURLForURL:siteURL appendingPathComponents:path];
+//    NSURL *url = [self.configuration feedContentAPIURLForURL:siteURL appendingPathComponents:path];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"onthisday" withExtension:@"json"];
     [self.session getJSONDictionaryFromURL:url ignoreCache:YES completionHandler:^(NSDictionary<NSString *,id> * _Nullable result, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
             failure(error);

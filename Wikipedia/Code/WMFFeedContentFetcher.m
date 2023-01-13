@@ -83,9 +83,11 @@ static const NSInteger WMFFeedContentFetcherMinimumMaxAge = 18000; // 5 minutes
         genericFailure();
         return;
     }
-
-    NSURL *feedURL = [[self class] feedContentURLForSiteURL:siteURL onDate:date configuration:self.configuration];
-    [self.session getJSONDictionaryFromURL:feedURL
+    
+    
+    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"featured" withExtension:@"json"];
+//    NSURL *feedURL = [[self class] feedContentURLForSiteURL:siteURL onDate:date configuration:self.configuration];
+    [self.session getJSONDictionaryFromURL:fileURL
                                ignoreCache:NO
                          completionHandler:^(NSDictionary<NSString *, id> *_Nullable jsonDictionary, NSHTTPURLResponse *_Nullable response, NSError *_Nullable error) {
                              if (error) {

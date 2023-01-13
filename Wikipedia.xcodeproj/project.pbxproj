@@ -2070,6 +2070,19 @@
 		A452F9FD24081B0200D8ED09 /* MockUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452F9FC24081B0200D8ED09 /* MockUIDevice.swift */; };
 		A4C558BD2403D74100AFBFDC /* LocationManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C558BC2403D74100AFBFDC /* LocationManagerProtocol.swift */; };
 		A4C558BF2403D7E300AFBFDC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C558BE2403D7E200AFBFDC /* LocationManager.swift */; };
+		AC6C84212966ED6D003A82FC /* featured.json in Resources */ = {isa = PBXBuildFile; fileRef = AC6C84202966ED6D003A82FC /* featured.json */; };
+		AC6C84232966FB2A003A82FC /* onthisday.json in Resources */ = {isa = PBXBuildFile; fileRef = AC6C84222966FB2A003A82FC /* onthisday.json */; };
+		AC6C84252966FB60003A82FC /* summary.json in Resources */ = {isa = PBXBuildFile; fileRef = AC6C84242966FB60003A82FC /* summary.json */; };
+		AC6C8427296738F7003A82FC /* places_search.json in Resources */ = {isa = PBXBuildFile; fileRef = AC6C8426296738F7003A82FC /* places_search.json */; };
+		AC6C8440296784A6003A82FC /* Phedina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C8438296784A3003A82FC /* Phedina.jpg */; };
+		AC6C8441296784A6003A82FC /* Ken_Block.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C8439296784A4003A82FC /* Ken_Block.jpg */; };
+		AC6C8442296784A6003A82FC /* Avatar_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C843A296784A4003A82FC /* Avatar_poster.jpg */; };
+		AC6C8443296784A6003A82FC /* Congress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C843B296784A4003A82FC /* Congress.jpg */; };
+		AC6C8445296784A6003A82FC /* Damar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C843D296784A5003A82FC /* Damar.jpg */; };
+		AC6C8446296784A6003A82FC /* Khairdeen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C843E296784A5003A82FC /* Khairdeen.jpg */; };
+		AC6C8447296784A6003A82FC /* Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C843F296784A5003A82FC /* Temple.jpg */; };
+		AC6C844929679126003A82FC /* Eurozone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6C844829679126003A82FC /* Eurozone.jpg */; };
+		ACA7811C2971CB540047A582 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = ACA7811B2971CB540047A582 /* search.json */; };
 		B00050141C52D73800515F70 /* UIApplication+RTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00050131C52D73800515F70 /* UIApplication+RTL.swift */; };
 		B0016CB921354D9D00FA1096 /* AutoLayoutSafeMultiLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0016CB821354D9D00FA1096 /* AutoLayoutSafeMultiLineButton.swift */; };
 		B0016CBA21354D9D00FA1096 /* AutoLayoutSafeMultiLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0016CB821354D9D00FA1096 /* AutoLayoutSafeMultiLineButton.swift */; };
@@ -4659,6 +4672,19 @@
 		A452F9FC24081B0200D8ED09 /* MockUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUIDevice.swift; sourceTree = "<group>"; };
 		A4C558BC2403D74100AFBFDC /* LocationManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerProtocol.swift; sourceTree = "<group>"; };
 		A4C558BE2403D7E200AFBFDC /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AC6C84202966ED6D003A82FC /* featured.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = featured.json; sourceTree = "<group>"; };
+		AC6C84222966FB2A003A82FC /* onthisday.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onthisday.json; sourceTree = "<group>"; };
+		AC6C84242966FB60003A82FC /* summary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = summary.json; sourceTree = "<group>"; };
+		AC6C8426296738F7003A82FC /* places_search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = places_search.json; sourceTree = "<group>"; };
+		AC6C8438296784A3003A82FC /* Phedina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Phedina.jpg; sourceTree = "<group>"; };
+		AC6C8439296784A4003A82FC /* Ken_Block.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ken_Block.jpg; sourceTree = "<group>"; };
+		AC6C843A296784A4003A82FC /* Avatar_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Avatar_poster.jpg; sourceTree = "<group>"; };
+		AC6C843B296784A4003A82FC /* Congress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Congress.jpg; sourceTree = "<group>"; };
+		AC6C843D296784A5003A82FC /* Damar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Damar.jpg; sourceTree = "<group>"; };
+		AC6C843E296784A5003A82FC /* Khairdeen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Khairdeen.jpg; sourceTree = "<group>"; };
+		AC6C843F296784A5003A82FC /* Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Temple.jpg; sourceTree = "<group>"; };
+		AC6C844829679126003A82FC /* Eurozone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eurozone.jpg; sourceTree = "<group>"; };
+		ACA7811B2971CB540047A582 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		B00050131C52D73800515F70 /* UIApplication+RTL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+RTL.swift"; sourceTree = "<group>"; };
 		B0016CB821354D9D00FA1096 /* AutoLayoutSafeMultiLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSafeMultiLineButton.swift; sourceTree = "<group>"; };
 		B0016CBE2136105900FA1096 /* SetupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupButton.swift; sourceTree = "<group>"; };
@@ -9005,10 +9031,23 @@
 		D499143E181D51DE00E6073C /* Wikipedia */ = {
 			isa = PBXGroup;
 			children = (
+				AC6C844829679126003A82FC /* Eurozone.jpg */,
+				AC6C843A296784A4003A82FC /* Avatar_poster.jpg */,
+				AC6C843B296784A4003A82FC /* Congress.jpg */,
+				AC6C843D296784A5003A82FC /* Damar.jpg */,
+				AC6C8439296784A4003A82FC /* Ken_Block.jpg */,
+				AC6C843E296784A5003A82FC /* Khairdeen.jpg */,
+				AC6C8438296784A3003A82FC /* Phedina.jpg */,
+				AC6C843F296784A5003A82FC /* Temple.jpg */,
 				D4991453181D51DE00E6073C /* Images.xcassets */,
 				BC7C3A371C0FF94A0057F023 /* Code */,
 				BCF012321AD2FA38008D3675 /* assets */,
 				D8BA1F1F1DF1E19700502877 /* Resources */,
+				AC6C84202966ED6D003A82FC /* featured.json */,
+				AC6C8426296738F7003A82FC /* places_search.json */,
+				AC6C84222966FB2A003A82FC /* onthisday.json */,
+				AC6C84242966FB60003A82FC /* summary.json */,
+				ACA7811B2971CB540047A582 /* search.json */,
 			);
 			path = Wikipedia;
 			sourceTree = "<group>";
@@ -10420,6 +10459,7 @@
 			files = (
 				B0E8040C1C0CDE480065EBC0 /* WMFCaptchaViewController.storyboard in Resources */,
 				7A9524DC22669A8B00C55CDC /* InsertMediaSettingsButtonView.xib in Resources */,
+				AC6C84252966FB60003A82FC /* summary.json in Resources */,
 				BA4524291F32500C00439C42 /* TextSizeChangeExampleViewController.xib in Resources */,
 				D8E27BB41F82B5DB00F9D2B3 /* RMessageView.xib in Resources */,
 				B0E806961C0CEA7B0065EBC0 /* AboutViewController.plist in Resources */,
@@ -10428,7 +10468,9 @@
 				7A741DCF207FB9CC00CBAAE2 /* SearchBarExtendedViewController.xib in Resources */,
 				67CEF25F234FCA8100D5CA6C /* DiffListContextCell.xib in Resources */,
 				D84F2BFD1D2FEE6300963D42 /* WMFRandomDiceButtonRoll.js in Resources */,
+				AC6C8445296784A6003A82FC /* Damar.jpg in Resources */,
 				D8D92B601DF22E1700B95311 /* NotificationBackgroundSuccess.png in Resources */,
+				AC6C8441296784A6003A82FC /* Ken_Block.jpg in Resources */,
 				7A9A611821124CF500403154 /* CreateNewReadingListButtonView.xib in Resources */,
 				7A16C4EB212D941C00F0D5EC /* SubSettingsViewController.xib in Resources */,
 				7A8422582268DA2C0074648E /* InsertMediaSearchResultPreviewingViewController.xib in Resources */,
@@ -10444,6 +10486,7 @@
 				D8D92B631DF22E1700B95311 /* NotificationBackgroundSuccessIcon@2x.png in Resources */,
 				83B01F8B23DB399E001185F4 /* DescriptionEditViewController.storyboard in Resources */,
 				7AFA21C020110D7900E957E7 /* HintViewController.xib in Resources */,
+				AC6C8446296784A6003A82FC /* Khairdeen.jpg in Resources */,
 				7A71567322697AAF0066FEC4 /* InsertMediaCustomImageSizeSettingTableViewCell.xib in Resources */,
 				B0524B0321484FB400D8FD8D /* DescriptionWelcome.storyboard in Resources */,
 				B0ED173D1E49831B008B70AD /* WMFTwoFactorPasswordViewController.storyboard in Resources */,
@@ -10461,6 +10504,7 @@
 				6782DC0523453D6B003FA21B /* DiffHeaderCompareItemView.xib in Resources */,
 				D8D92B661DF22E1700B95311 /* NotificationBackgroundWarningIcon.png in Resources */,
 				7ADF498021B45CEE009EA338 /* TextFormattingPlainToolbarView.xib in Resources */,
+				AC6C84232966FB2A003A82FC /* onthisday.json in Resources */,
 				830C0DDA23D9C218006471C4 /* Properties.js in Resources */,
 				67CEF2612350C29D00D5CA6C /* DiffListUneditedCell.xib in Resources */,
 				B0E8040F1C0CDE480065EBC0 /* WMFLoginViewController.storyboard in Resources */,
@@ -10478,12 +10522,14 @@
 				B0C6BE531E4526810033BD6E /* WMFChangePasswordViewController.storyboard in Resources */,
 				D8D92B5A1DF22E1700B95311 /* NotificationBackgroundError.png in Resources */,
 				7ABAD6B920338CFB006A364C /* ReadingListDetailUnderBarViewController.xib in Resources */,
+				AC6C8443296784A6003A82FC /* Congress.jpg in Resources */,
 				0042811525E6E841004945B3 /* NYTPhotoViewer.bundle in Resources */,
 				B01490A11DB96BD6007F5391 /* WMFReferencePanels.storyboard in Resources */,
 				D87234041E1FF18100751E83 /* Places.storyboard in Resources */,
 				676070A42280987C00A81F09 /* TalkPageTopicNewViewController.xib in Resources */,
 				83023C0B20E51DDF00EC7592 /* SearchLanguagesBarViewController.xib in Resources */,
 				BA7683C31F30C56300A487AA /* ImageDimmingExampleViewController.xib in Resources */,
+				ACA7811C2971CB540047A582 /* search.json in Resources */,
 				7A9F061E2266432200856321 /* InsertMediaSettingsTextTableViewCell.xib in Resources */,
 				B0E8040B1C0CDE480065EBC0 /* WMFAccountCreationViewController.storyboard in Resources */,
 				D8D92B621DF22E1700B95311 /* NotificationBackgroundSuccessIcon.png in Resources */,
@@ -10491,6 +10537,7 @@
 				B02B82761C696ECA00B19309 /* WMFSettingsTableViewCell.xib in Resources */,
 				D8D92B671DF22E1700B95311 /* NotificationBackgroundWarningIcon@2x.png in Resources */,
 				D84692E11D5E1E3F000A7058 /* TableOfContentsHeader.xib in Resources */,
+				AC6C8427296738F7003A82FC /* places_search.json in Resources */,
 				B0DE92271D6E26C700EC76A7 /* WMFBarButtonItemPopoverMessageViewController.storyboard in Resources */,
 				7A2432C31FCF401900FB4BA5 /* CreateReadingListViewController.xib in Resources */,
 				6782DC172347EE59003FA21B /* DiffListChangeCell.xib in Resources */,
@@ -10516,6 +10563,7 @@
 				7AE1D3331FCD057200393471 /* Saved.storyboard in Resources */,
 				B0C17B9321FAB048009ED5C3 /* AbuseFilterAlertView.xib in Resources */,
 				D8E27BAD1F82B54D00F9D2B3 /* RMessageDefaultDesign.json in Resources */,
+				AC6C84212966ED6D003A82FC /* featured.json in Resources */,
 				B01EA07E2022856300813726 /* ScrollableEducationPanelView.xib in Resources */,
 				D84F2BFB1D2FEE6300963D42 /* WMFRandomDiceButton.html in Resources */,
 				7A9524D022665E6400C55CDC /* InsertMediaSettingsImageView.xib in Resources */,
@@ -10524,10 +10572,12 @@
 				B0845E1C2061B44A00CDD98E /* SavedProgressViewController.storyboard in Resources */,
 				6782DBF023453799003FA21B /* DiffHeaderCompareView.xib in Resources */,
 				672B127822A450F000CC85A5 /* OldTalkPageHeaderView.xib in Resources */,
+				AC6C8440296784A6003A82FC /* Phedina.jpg in Resources */,
 				00A8F58826BDD88700175B8E /* Featured Article Widget Preview Content.json in Resources */,
 				671F5E0B236B8CAF00111116 /* EmptyViewController.xib in Resources */,
 				83836ED11F615E5B007D1A05 /* ShareViewController.xib in Resources */,
 				0EE2438F1DC988AA00066CBD /* WMFTableHeaderFooterLabelView.xib in Resources */,
+				AC6C8447296784A6003A82FC /* Temple.jpg in Resources */,
 				D8D92B681DF22E1700B95311 /* NotificationButtonBackground.png in Resources */,
 				B0E804181C0CDE480065EBC0 /* WMFSettingsViewController.storyboard in Resources */,
 				83E3E72A2440F24300AA2E9A /* LoadingAnimationViewController.xib in Resources */,
@@ -10536,7 +10586,9 @@
 				B09B03F61CE0FB7700009083 /* ReadingThemesControlsViewController.xib in Resources */,
 				B0F4762021F921D300C4E254 /* EditSummaryViewController.xib in Resources */,
 				D8D92B691DF22E1700B95311 /* NotificationButtonBackground@2x.png in Resources */,
+				AC6C8442296784A6003A82FC /* Avatar_poster.jpg in Resources */,
 				7AEC985E219F529000BEF62B /* DefaultEditToolbarView.xib in Resources */,
+				AC6C844929679126003A82FC /* Eurozone.jpg in Resources */,
 				7A707982223AB69000A2BDFC /* WelcomePanelLabelContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

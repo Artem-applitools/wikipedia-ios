@@ -4,11 +4,16 @@ import Foundation
 public final class RandomArticleFetcher: Fetcher {
     @objc public func fetchRandomArticle(withSiteURL siteURL: URL, completion: @escaping (Error?, URL?, ArticleSummary?) -> Void) {
         let pathComponents = ["page", "random", "summary"]
-        guard let taskURL = configuration.feedContentAPIURLForURL(siteURL, appending: pathComponents) else {
+//        guard let taskURL = configuration.feedContentAPIURLForURL(siteURL, appending: pathComponents) else {
+//            completion(Fetcher.invalidParametersError, nil, nil)
+//            return
+//        }
+        guard let fileURL = Bundle.main.url(forResource: "summary", withExtension: "json") else {
             completion(Fetcher.invalidParametersError, nil, nil)
             return
         }
-        session.jsonDecodableTask(with: taskURL) { (summary: ArticleSummary?, response, error) in
+        let localFileURL = URL(string: fileURL.absoluteString)
+        session.jsonDecodableTask(with: localFileURL) { (summary: ArticleSummary?, response, error) in
             if let error = error {
                 completion(error, nil, nil)
                 return

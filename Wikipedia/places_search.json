@@ -1,0 +1,37 @@
+{
+  "warnings": {
+    "main": {
+      "*": "Unrecognized parameter: cirrusIncLinkssW."
+    }
+  },
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 50,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "206337": {
+        "pageid": 206337,
+        "ns": 0,
+        "title": "Ahmedabad",
+        "index": 49,
+        "coordinates": [
+          {
+            "lat": 23.03,
+            "lon": 72.58,
+            "primary": "",
+            "dim": "1000"
+          }
+        ],
+        "thumbnail": {
+          "source": "file://Temple.jpg",
+          "width": 240,
+          "height": 156
+        },
+        "description": "Metropolis in Gujarat, India",
+        "descriptionsource": "local"
+      }
+    }
+  }
+}
